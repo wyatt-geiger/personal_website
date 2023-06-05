@@ -1,0 +1,45 @@
+.square_one {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(14 165 233);
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+
+.square_two {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(14 165 233);
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.jack_test {
+    background-image: url(../assets/jack_test.jpg);
+    background-repeat: no-repeat;
+    width: 510px;
+    height: 680px; /* size of image itself. use MS Paint to crop*/
+    top: 100px;
+    left: 200px;
+    overflow: hidden;
+    position: absolute; /* this ignores other elements and overlaps them*/
+    animation: fadeIn 1.5s;
+    animation-fill-mode: both; /* makes it so animation does not reset*/
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; } 
+    100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
+    from {
+        transform: translateX(0%);
+      }
+    
+    to {
+        transform: translateX(25%); /* from first X position, increase by 25% */
+      } 
+  }
+  

@@ -18,15 +18,16 @@
     margin-top: 200px;
 }
 
+.container {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+ }
+
 .jack_test {
-    background-image: url(../assets/jack_test.jpg);
-    background-repeat: no-repeat;
-    width: 510px;
-    height: 680px; /* size of image itself. use MS Paint to crop*/
-    top: 100px;
-    left: 200px;
     overflow: hidden;
-    position: absolute; /* this ignores other elements and overlaps them*/
+    position: relative; /* this ignores other elements and overlaps them*/
     animation: fadeIn 1.5s;
     animation-fill-mode: both; /* makes it so animation does not reset*/
 }
@@ -42,4 +43,24 @@
         transform: translateX(25%); /* from first X position, increase by 25% */
       } 
   }
+
+.header-shadow {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 300px 100px;
+  box-shadow: 5px 10px purple;
+  text-align: center;
+}
+
+.my-name{
+  font-size: 100px;
+  text-align: center;
+}
+
+.title-plate {
+  color: rgb(248 250 252); /* Tailwind color: Slate */
+  font-size: 40px;
+}
+
+
   

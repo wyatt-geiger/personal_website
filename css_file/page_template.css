@@ -18,16 +18,9 @@
     margin-top: 200px;
 }
 
-.container {
-  display: grid;
-  align-items: center; 
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 5px;
- }
-
 .jack_test {
     overflow: hidden;
-    position: relative; /* this ignores other elements and overlaps them*/
+    position: absolute; /* this ignores other elements and overlaps them*/
     animation: fadeIn 1.5s;
     animation-fill-mode: both; /* makes it so animation does not reset*/
 }
@@ -44,12 +37,21 @@
       } 
   }
 
-.header-shadow {
-  background-color: black;
-  background-repeat: no-repeat;
-  background-size: 300px 100px;
-  box-shadow: 5px 10px purple;
+.container {
   text-align: center;
+}
+
+.header-shadow {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  box-shadow: 5px 10px #c084fc;
+  position: relative;
+  color: rgb(248 250 252); /* Tailwind color: Slate */
+  font-size: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
 }
 
 .my-name{
@@ -58,8 +60,8 @@
 }
 
 .title-plate {
-  color: rgb(248 250 252); /* Tailwind color: Slate */
-  font-size: 40px;
+  
+  margin: 0 auto;
 }
 
 

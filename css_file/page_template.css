@@ -52,17 +52,21 @@
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 10px;
+  margin-top: 1.2em;
 }
 
 .my-name{
-  font-size: 100px;
+  font-size: 150px;
   text-align: center;
+  line-height: 1em;
+  margin-right: 200px;
 }
 
-.title-plate {
-  
-  margin: 0 auto;
+.three-traits {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+
 }
-
-
   

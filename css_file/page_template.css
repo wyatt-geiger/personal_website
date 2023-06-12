@@ -70,11 +70,11 @@
 
 }
 
-.middle-button {
-  animation: bounce 1.5s;
+.s2-button {
+  animation: bounce 1.2s;
   animation-iteration-count: infinite;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 190px;
   position: relative;
   top: 50%;
   left: 50%;
@@ -82,9 +82,13 @@
   font-weight: bold;
   height: 45px;
   width: 45px;
+  &:hover { /* Pauses button animation on hover, change cursor to pointer to indicate clickability */
+    animation-play-state: paused;
+    cursor: pointer;
+  }
 }
 
-.middle-button[type="button"] {
+.s2-button[type="button"] {
   background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
 }

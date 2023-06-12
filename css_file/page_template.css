@@ -78,12 +78,13 @@
   position: relative;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   font-size: 25px;
   font-weight: bold;
   height: 45px;
   width: 45px;
-  background-color: #c084fc;
+}
+
+.middle-button[type="button"] {
+  background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
 }

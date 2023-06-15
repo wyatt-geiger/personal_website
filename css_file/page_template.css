@@ -1,34 +1,40 @@
-.square_one {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(14 165 233);
-    border-radius: 10px;
-    border: 3px solid black;
-    margin-left: 200px;
-    margin-top: 40px;
-  }
-
-.square_two {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(14 165 233);
-    border-radius: 10px;
-    border: 3px solid black;
-    margin-left: 100px;
-    margin-top: 200px;
+.square-one {
+  padding-left: 15px;
+  font-size: 30px;
+  color: white;
+  height: auto;
+  width: 150px;
+  position: fixed;
+  background-color: black;
+  box-shadow: 10px 10px #c084fc;
+  top: 75%;
+  left: 86%;
+  transform: translate(-50%, -50%);
+  font-weight: 100;
 }
 
-.jack_test {
-    background-image: url(../assets/jack_test.jpg);
-    background-repeat: no-repeat;
-    width: 510px;
-    height: 680px; /* size of image itself. use MS Paint to crop*/
-    top: 100px;
-    left: 200px;
+.link-arrow {
+  height: auto;
+  width: 10%;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.email-link {
+  display: flex;
+}
+
+.profile_pic {
     overflow: hidden;
     position: absolute; /* this ignores other elements and overlaps them*/
     animation: fadeIn 1.5s;
     animation-fill-mode: both; /* makes it so animation does not reset*/
+    max-width: 400px;
+    height: auto;
+    border-radius: 200px;
+    top: 20%;
+    left: 0%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes fadeIn {
@@ -42,4 +48,76 @@
         transform: translateX(25%); /* from first X position, increase by 25% */
       } 
   }
-  
+
+.container {
+  text-align: center;
+}
+
+.header-shadow {
+  display: inline-block;
+  text-align: center;
+  font-weight: 100;
+  background-color: black;
+  box-shadow: 10px 10px #c084fc;
+  color: rgb(248 250 252); /* Tailwind color: Slate */
+  font-size: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  margin-top: 1.2em;
+}
+
+.my-name{
+  font-size: 150px;
+  text-align: center;
+  line-height: 1em;
+  margin-right: 200px;
+}
+
+.three-traits {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.plant-crop {
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+.arrow-text {
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.s2-button {
+  animation: bounce 1.2s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  top: 92%;
+  left: 48.6%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-weight: bold;
+  height: 45px;
+  width: 45px;
+  &:hover { /* Pauses button animation on hover, change cursor to pointer to indicate clickability */
+    animation-play-state: paused;
+    cursor: pointer;
+  }
+}
+
+.s2-button[type="button"] {
+  background-color: #c084fc; /* Set the background-color for input[type="button"] */
+  border-radius: 50%;
+}

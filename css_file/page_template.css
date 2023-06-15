@@ -13,6 +13,17 @@
   font-weight: 100;
 }
 
+.link-arrow {
+  height: auto;
+  width: 10%;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.email-link {
+  display: flex;
+}
+
 .profile_pic {
     overflow: hidden;
     position: absolute; /* this ignores other elements and overlaps them*/

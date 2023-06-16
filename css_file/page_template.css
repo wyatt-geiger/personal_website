@@ -121,3 +121,8 @@
   background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
 }
+
+.bio-text {
+  padding-top: 5em;
+  padding-left: 6em;
+}

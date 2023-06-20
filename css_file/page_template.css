@@ -81,13 +81,23 @@
 
 }
 
-.plant-crop {
+.plant-crop-1 {
   max-width: 400px;
   height: auto;
   position: absolute;
   top: 25%;
   left: 85%;
   transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+.plant-crop-2 {
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  transform: translate(-50%, 300%);
   border-radius: 25px;
 }
 

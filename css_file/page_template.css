@@ -48,10 +48,6 @@
       } 
   }
 
-.container {
-  text-align: center;
-}
-
 .header-shadow {
   display: inline-block;
   text-align: center;
@@ -134,4 +130,14 @@
 .bio-text {
   padding-top: 5em;
   padding-left: 6em;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 0 0 40%;
+  text-align: left;
+  margin-right: 90px;
 }

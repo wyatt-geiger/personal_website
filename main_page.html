@@ -38,27 +38,100 @@
         <p>Wyatt</p>
         <p style="margin-left: 300px;">Geiger</p>
     </div>
-    <div class="container">
 
-    <img src="assets/profile_pic.jpg" alt="headshot profile picture" class="profile_pic">
-    
+    <div style="text-align: center">
+        <img src="assets/profile_pic.jpg" alt="headshot profile picture" class="profile_pic">
         <p class="header-shadow">Software Developer</p>
     </div>
 
     <p class="three-traits font-sans">End User Support | Automation | Chess Enthusiast</p>
 
-    <img src="assets/plant.png" alt="photo of a plant" class="plant-crop">
+    <img src="assets/plant.png" alt="photo of a plant" class="plant-crop-1">
 
     <div class="arrow-text">ABOUT ME</div>
     <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-two').scrollIntoView({ behavior: 'smooth' });"/>
 
-    <!--- Below is the beginning of the next section of the website -->
+    <!-- Below is the beginning of the next section of the website -->
 
     <div id="section-two" style="margin-top: 800px;">
-        <div style="margin-bottom: 600px">
-            <div style="font-size: x-large; text-align: center;">TEST</div>
+        <div style="margin-bottom: 100px">
+            <div class="bio-text">
+                <div style="font-weight: bold; font-size: x-large;">
+                Hello, my name is Wyatt Geiger.<br>
+                I'm a Software Developer based out of Minneapolis, Minnesota.
+                </div> 
+                <div>
+                In 2022 I graduated from Minneapolis College with an Associate's degree in Computer Software Development<br> 
+                and since then I've been working with M Health Fairview as an End User Support Associate.<br> 
+                Outside of IT I enjoy hanging out with friends, live music, working out, hiking, playing chess, and playing video games.
+                </div>
+
+                <img src="assets/plant_3.png" alt="photo of a plant" class="plant-crop-2">
+
+    <!-- Below is the HTML for the Projects section of the website -->
+                <div class="container">
+                    <div class="column">
+                        <div class="header-shadow" style="font-size: xx-large">
+                            Projects
+                        </div>
+
+                        <!-- Below is the HTML for the portfolio website project -->
+
+                        <div style="font-weight: bold; font-size: large; padding-top: 1.5em;">
+                            My Website
+                        </div>
+                        <a href="https://github.com/wyatt-geiger/personal_website" target="_blank" class="email-link">
+                            Code<svg class="link-arrow" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                            </svg>
+                        </a><br>
+
+                        You're on it! I built this website with vanilla HTML, CSS, and JavaScript. I utilized
+                        CSS animations and vectors to create an interactive portfolio.
+
+                        <!-- Below is the HTML for the Globe Trekker project -->
+                        <div style="font-weight: bold; font-size: large; padding-top: 1em;">
+                            Globe Trekker
+                        </div>
+                        <a href="https://github.com/wyatt-geiger/travel_guide" target="_blank" class="email-link">
+                            Code<svg class="link-arrow" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                            </svg>
+                        </a><br>
+
+                        This is a project that I worked on while in school alongside other students.
+                        This app utilizes API's to grab information from YouTube, Yelp, and Mapbox
+                        to create a tool that allows users to plan and build their ideal vacation spot.
+                        This application uses SQLite to store the trips that the user plans into a database.
+                        
+                    </div>   
+                    
+                    <div class="column">
+                        <div class="header-shadow" style="font-size: xx-large; margin-bottom: 30px;">
+                            Tools I've Used
+                        </div>
+                        <div>
+                            <li>Python</li>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>ReactJS</li>
+                            <li>Vue.js</li>
+                            <li>Nodejs</li>
+                            <li>GitHub</li>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
+
+    <div class="arrow-text" style="transform: translate(-50%, 5400%)">EXPERIENCE</div>
+    <input type="button" class="s2-button" value="V" style="margin-top: 52em;" onClick="document.getElementById('section-three').scrollIntoView({ behavior: 'smooth' });"/>
     
+    <div id="section-three" style="margin-top: 800px;">
+        <div style="margin-bottom: 600px; margin-left: 100px;">
+            tester tester tester
+        </div>
+    </div>
 </body>
 </html>

@@ -14,9 +14,8 @@
 }
 
 .link-arrow {
-  height: auto;
-  width: 10%;
-  vertical-align: middle;
+  height: 1rem;
+  width: 1rem;
   margin-left: 5px;
 }
 
@@ -49,10 +48,6 @@
       } 
   }
 
-.container {
-  text-align: center;
-}
-
 .header-shadow {
   display: inline-block;
   text-align: center;
@@ -82,13 +77,23 @@
 
 }
 
-.plant-crop {
+.plant-crop-1 {
   max-width: 400px;
   height: auto;
   position: absolute;
   top: 25%;
   left: 85%;
   transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+.plant-crop-2 {
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  transform: translate(-50%, 300%);
   border-radius: 25px;
 }
 
@@ -120,4 +125,19 @@
 .s2-button[type="button"] {
   background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
+}
+
+.bio-text {
+  padding-top: 5em;
+  padding-left: 6em;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 0 0 40%;
+  text-align: left;
+  margin-right: 90px;
 }

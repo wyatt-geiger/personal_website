@@ -102,6 +102,16 @@
   border-radius: 25px;
 }
 
+.plant-crop-3 {
+  max-width: 400px;
+  height: auto;
+  position: absolute;
+  top: 25%;
+  left: 85%;
+  transform: translate(-50%, 685%);
+  border-radius: 25px;
+}
+
 .arrow-text {
   position: absolute;
   top: 87%;

@@ -1,5 +1,7 @@
 .square-one {
+  z-index: 9;
   padding-left: 15px;
+  padding-top: 5px;
   font-size: 30px;
   color: white;
   height: auto;
@@ -108,7 +110,7 @@
   position: absolute;
   top: 25%;
   left: 85%;
-  transform: translate(-50%, 685%);
+  transform: translate(-50%, 680%);
   border-radius: 25px;
 }
 

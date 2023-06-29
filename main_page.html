@@ -13,6 +13,7 @@
 </head>
 <body class="bg-slate-100">
 
+    <!-- This code is for the sidebar menu that scrolls with the viewport -->
     <div class="square-one">
         <a href="https://www.linkedin.com/in/wyatt-geiger/" target="_blank" class="email-link">
             LinkedIn
@@ -33,12 +34,14 @@
             </svg>
         </a>
     </div>
+
+    <!-- Block of code for the first "section" of the website, containing my name, picture, etc. -->
     <div id="section-one">
         <div class="my-name">
             <p>Wyatt</p>
             <p style="margin-left: 300px;">Geiger</p>
         </div>
-
+        
         <div style="text-align: center">
             <img src="assets/profile_pic.jpg" alt="headshot profile picture" class="profile_pic">
             <p class="header-shadow">Software Developer</p>
@@ -48,17 +51,16 @@
 
         <img src="assets/plant.png" alt="photo of a plant" class="plant-crop-1">
 
+        <!-- Button to scroll to next section of the website -->
         <div class="arrow-text">ABOUT ME</div>
         <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-two').scrollIntoView({ behavior: 'smooth' });"/>
+        
     </div>
-    <!-- Below is the beginning of the second section of the website -->
 
+    <!-- Below is the beginning of the second section of the website, containing information about myself and projects I've worked on -->
     <div id="section-two" style="margin-top: 800px;">
+        <!-- These margin properties are used to create artificial whitespace between sections of the website -->
         <div style="margin-bottom: 100px; align-items: center;">
-
-            <div style="transform: rotate(180deg);">
-                <input type="button" class="s2-button" value="V" style="margin-top: -2em; animation: none;" onClick="document.getElementById('section-one').scrollIntoView({ behavior: 'smooth' });"/>
-            </div>
             
             <div class="bio-text">
                 <div style="font-weight: bold; font-size: x-large;">
@@ -73,7 +75,8 @@
 
                 <img src="assets/plant_3.png" alt="photo of a plant" class="plant-crop-2">
 
-    <!-- Below is the HTML for the Projects section of the website -->
+                <!-- Below is the HTML for the Projects section of the website. The column class is used to divide
+                the Projects section from the Tools section -->
                 <div class="container">
                     <div class="column">
                         <div class="header-shadow" style="font-size: xx-large">
@@ -81,7 +84,6 @@
                         </div><br><br>
 
                         <!-- Below is the HTML for the portfolio website project -->
-
                         <div class="subheading">
                             My Website
                         </div>
@@ -90,7 +92,6 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
                             </svg>
                         </a><br>
-
                         You're on it! I built this website with vanilla HTML, CSS, and JavaScript. I utilized
                         CSS animations and vectors to create an interactive portfolio.<br><br>
 
@@ -103,17 +104,17 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
                             </svg>
                         </a><br>
-
                         This is a project that I worked on while in school alongside other students.
                         This app utilizes API's to grab information from YouTube, Yelp, and Mapbox
                         to create a tool that allows users to plan and build their ideal vacation spot.
-                        This application uses SQLite to store the trips that the user plans into a database.
-                        
-                    </div>   
-                    
+                        This application uses SQLite to store the trips that the user plans into a database.                       
+                    </div>
+
+                    <!-- This HTML is for the Tools I Use section. The column class is used to divide Projects
+                    section from the Tools section. -->
                     <div class="column">
                         <div class="header-shadow" style="font-size: xx-large; margin-bottom: 30px;">
-                            Tools I've Used
+                            Tools I Use
                         </div>
                         <div>
                             <li>Python</li>
@@ -130,15 +131,21 @@
         </div>
     </div>
 
+
+    <!-- Button to scroll to next section of the website -->
     <div class="arrow-text" style="transform: translate(-50%, 5400%)">EXPERIENCE</div>
     <input type="button" class="s2-button" value="V" style="margin-top: 52em;" onClick="document.getElementById('section-three').scrollIntoView({ behavior: 'smooth' });"/>
     
+    <!-- Below is the third section of the website, containing my work experience -->
     <div id="section-three" style="margin-top: 800px;">
+        <!-- These margin properties are used to create artificial whitespace between sections of the website -->
         <div style="margin-bottom: 60px; margin-left: 100px; padding-bottom: 40px;">
                 <img src="assets/plant_2.png" alt="photo of a plant" class="plant-crop-3">
                 <div class="header-shadow" style="font-size: xx-large;">
                     Experience
                 </div>
+
+                <!-- This HTML is text that links to my full resume -->
                 <div class="header-shadow" style="font-size: x-large; margin-left: 350px; padding-top: 5px;">
                     <a href="resume.html" target="_blank" class="email-link">
                         Full Resume<svg class="link-arrow" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -147,6 +154,7 @@
                     </a>
                 </div><br><br>
                 
+                <!-- HTML below contains my work experience -->
                 <div class="subheading">End User Support Associate - M Health Fairview</div>
                 <i>June 2022 - Present</i><br><br>
 
@@ -167,8 +175,7 @@
 
                 At DoorDash's warehouse, I prepared deliveries for customers while following strict food preparation procedures.<br> 
                 I organized and stocked shelves while maintaining spreadsheets to track our inventory while working alongside my team in a fast-paced environment.
-        </div>
-        
+        </div>       
     </div>
 </body>
 </html>

@@ -85,33 +85,12 @@
 
 }
 
-.plant-crop-1 {
+.plant-crop {
   max-width: 400px;
   height: auto;
   position: absolute;
   top: 25%;
   left: 85%;
-  transform: translate(-50%, -50%);
-  border-radius: 25px;
-}
-
-.plant-crop-2 {
-  max-width: 400px;
-  height: auto;
-  position: absolute;
-  top: 25%;
-  left: 85%;
-  transform: translate(-50%, 300%);
-  border-radius: 25px;
-}
-
-.plant-crop-3 {
-  max-width: 400px;
-  height: auto;
-  position: absolute;
-  top: 25%;
-  left: 85%;
-  transform: translate(-50%, 680%);
   border-radius: 25px;
 }
 
@@ -127,9 +106,6 @@
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
   position: absolute;
-  top: 92%;
-  left: 48.6%;
-  transform: translate(-50%, -50%);
   font-size: 25px;
   font-weight: bold;
   height: 1.8em;

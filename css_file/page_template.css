@@ -87,13 +87,22 @@
 
 }
 
-.plant-crop {
+.plant-crop-1 {
   max-width: 400px;
   height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(-130%);
   margin-left: 68.5em;
+}
+
+.plant-crop-2 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 70em;
 }
 
 .arrow-text {
@@ -125,7 +134,7 @@
 }
 
 .bio-text {
-  padding-top: 5em;
+  padding-top: 3.5em;
   padding-left: 6em;
 }
 

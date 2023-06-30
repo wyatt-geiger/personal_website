@@ -90,10 +90,10 @@
 .plant-crop {
   max-width: 400px;
   height: auto;
-  position: absolute;
-  top: 25%;
-  left: 85%;
   border-radius: 25px;
+  position: absolute;
+  transform: translateY(-130%);
+  margin-left: 68.5em;
 }
 
 .arrow-text {

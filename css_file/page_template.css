@@ -95,17 +95,18 @@
 }
 
 .arrow-text {
-  position: absolute;
-  top: 87%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-weight: bold;
+  margin-top: 7em;
+}
+
+.center {
+  text-align: center;
 }
 
 .s2-button {
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
-  position: absolute;
+  margin-top: .8em;
   font-size: 25px;
   font-weight: bold;
   height: 1.8em;

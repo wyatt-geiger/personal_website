@@ -42,7 +42,7 @@
             <p style="margin-left: 2em;">Geiger</p>
         </div>
         
-        <div style="text-align: center">
+        <div class="center">
             <img src="assets/profile_pic.jpg" alt="headshot profile picture" class="profile_pic">
             <p class="header-shadow">Software Developer</p>
         </div>
@@ -52,9 +52,10 @@
         <img src="assets/plant_1.png" alt="photo of a plant" class="plant-crop" style="transform: translate(-50%, -30%);">
 
         <!-- Button to scroll to next section of the website -->
-        <div class="arrow-text">ABOUT ME</div>
-        <div style="text-align: center;">
-        <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-two').scrollIntoView({ behavior: 'smooth' });"/>
+        
+        <div class="center">
+            <div class="arrow-text">ABOUT ME</div>
+            <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-two').scrollIntoView({ behavior: 'smooth' });"/>
         </div>
         
         
@@ -135,11 +136,13 @@
 
 
     <!-- Button to scroll to next section of the website -->
-    <div class="arrow-text" style="padding-bottom: 4em;">EXPERIENCE</div>
-    <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-three').scrollIntoView({ behavior: 'smooth' });"/>
-
+    <div class="center" style="margin-top: -10em;">
+        <div class="arrow-text">EXPERIENCE</div>
+        <input type="button" class="s2-button" value="V" onClick="document.getElementById('section-three').scrollIntoView({ behavior: 'smooth' });"/>
+    </div>
+    
     <!-- Below is the third section of the website, containing my work experience -->
-    <div id="section-three" style="margin-top: 800px;">
+    <div id="section-three">
         <!-- These margin properties are used to create artificial whitespace between sections of the website -->
         <div style="margin-bottom: 60px; margin-left: 100px; padding-bottom: 40px;">
                 <img src="assets/plant_3.png" alt="photo of a plant" class="plant-crop">

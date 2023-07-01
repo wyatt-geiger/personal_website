@@ -36,7 +36,7 @@ body {
 }
 
 /* This animated button scrolls the user to the next section of the website */
-.s2-button {
+.next-section-scroll {
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
   margin-top: .8em;
@@ -50,7 +50,7 @@ body {
   }
 }
 
-.s2-button[type="button"] {
+.next-section-scroll[type="button"] {
   background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
 }

@@ -10,7 +10,7 @@ body {
 }
 
 /* CSS for the menu of links that scrolls along website */
-.square-one {
+.link-menu {
   z-index: 9;
   padding-left: .5em;
   padding-top: .2em;

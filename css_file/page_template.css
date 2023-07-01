@@ -65,10 +65,36 @@ body {
   margin-top: -10.5em;
 }
 
+/* Below is the formatting for the first section of the website */
 #last-name {
   margin-left: 2em;
 }
 
+.profile_pic {
+  overflow: hidden;
+  position: absolute;
+  animation: fadeIn 1.5s;
+  animation-fill-mode: both; /* Do not reset animation */
+  max-width: 400px;
+  height: auto;
+  border-radius: 200px;
+  margin-top: -13em;
+}
+/* Keyframes that animate my profile picture */
+@keyframes fadeIn {
+  0% { opacity: 0; } 
+  100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
+  from {
+      transform: translateX(0%);
+    }
+  
+  to {
+      transform: translateX(25%); /* from first X position, increase by 25% */
+    } 
+}
+
+
+ /* Below is the formatting for the third section of the website*/
 .subheading {
   font-weight: bold;
   font-size: large;
@@ -76,28 +102,7 @@ body {
 
 
 
-.profile_pic {
-    overflow: hidden;
-    position: absolute; /* this ignores other elements and overlaps them*/
-    animation: fadeIn 1.5s;
-    animation-fill-mode: both; /* makes it so animation does not reset*/
-    max-width: 400px;
-    height: auto;
-    border-radius: 200px;
-    margin-top: -13em;
-}
 
-@keyframes fadeIn {
-    0% { opacity: 0; } 
-    100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
-    from {
-        transform: translateX(0%);
-      }
-    
-    to {
-        transform: translateX(25%); /* from first X position, increase by 25% */
-      } 
-  }
 
 .header-shadow {
   display: inline-block;

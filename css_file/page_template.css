@@ -1,9 +1,16 @@
+/* Formatting for the body of the webpage */
 body {
   background-color: rgb(241 245 249);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.square-one {
+/* Class that centers item on the page */
+.center {
+  text-align: center;
+}
+
+/* CSS for the menu of links that scrolls along website */
+.link-menu {
   z-index: 9;
   padding-left: .5em;
   padding-top: .2em;
@@ -21,15 +28,11 @@ body {
   font-weight: 100;
 }
 
-#last-name {
-  margin-left: 2em;
+.email-link {
+  display: flex;
 }
 
-.subheading {
-  font-weight: bold;
-  font-size: large;
-}
-
+/* This formats the vector link arrow that is found on the menu of links, Projects, and full resume */
 .link-arrow {
   height: 1rem;
   width: 1rem;
@@ -37,40 +40,14 @@ body {
   margin-top: .2em;
 }
 
-.email-link {
-  display: flex;
-}
-
-.profile_pic {
-    overflow: hidden;
-    position: absolute; /* this ignores other elements and overlaps them*/
-    animation: fadeIn 1.5s;
-    animation-fill-mode: both; /* makes it so animation does not reset*/
-    max-width: 400px;
-    height: auto;
-    border-radius: 200px;
-    margin-top: -13em;
-}
-
-@keyframes fadeIn {
-    0% { opacity: 0; } 
-    100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
-    from {
-        transform: translateX(0%);
-      }
-    
-    to {
-        transform: translateX(25%); /* from first X position, increase by 25% */
-      } 
-  }
-
+/* Styling for headers that is used multiple times in the website */
 .header-shadow {
   display: inline-block;
   text-align: center;
   font-weight: 100;
   background-color: black;
   box-shadow: 10px 10px #c084fc;
-  color: rgb(248 250 252); /* Tailwind color: Slate */
+  color: rgb(248 250 252);
   font-size: 50px;
   padding-left: .5em;
   padding-right: .5em;
@@ -78,59 +55,8 @@ body {
   margin-top: 1.2em;
 }
 
-.my-name{
-  font-size: 150px;
-  text-align: center;
-  line-height: 1em;
-  margin-right: 1.1em;
-}
-
-.three-traits {
-  text-align: center;
-  margin-top: 1.2em;
-  font-size: 20px;
-  font-weight: bold;
-
-}
-
-.plant-crop-1 {
-  max-width: 400px;
-  height: auto;
-  border-radius: 25px;
-  position: absolute;
-  transform: translateY(-130%);
-  margin-left: 68.5em;
-}
-
-.plant-crop-2 {
-  max-width: 400px;
-  height: auto;
-  border-radius: 25px;
-  position: absolute;
-  transform: translateY(15%);
-  margin-left: 70em;
-}
-
-.plant-crop-3 {
-  max-width: 400px;
-  height: auto;
-  border-radius: 25px;
-  position: absolute;
-  transform: translateY(15%);
-  margin-left: 63em;
-  margin-top: -2em;
-}
-
-.arrow-text {
-  font-weight: bold;
-  margin-top: 7em;
-}
-
-.center {
-  text-align: center;
-}
-
-.s2-button {
+/* This animated button scrolls the user to the next section of the website */
+.next-section-scroll {
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
   margin-top: .8em;
@@ -144,14 +70,79 @@ body {
   }
 }
 
-.s2-button[type="button"] {
+.next-section-scroll[type="button"] {
   background-color: #c084fc; /* Set the background-color for input[type="button"] */
   border-radius: 50%;
 }
 
+.section-description {
+  font-weight: bold;
+  margin-top: 7em;
+}
+
+/* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
   margin-top: -10.5em;
 }
+
+/* CSS for subheadings that are used in section 2 and 3 */
+.subheading {
+  font-weight: bold;
+  font-size: large;
+}
+
+/* Below is the formatting for the first section of the website */
+
+.my-name{
+  font-size: 150px;
+  text-align: center;
+  line-height: 1em;
+  margin-right: 1.1em;
+}
+
+#last-name {
+  margin-left: 2em;
+}
+
+.profile_pic {
+  overflow: hidden;
+  position: absolute;
+  animation: fadeIn 1.5s;
+  animation-fill-mode: both; /* Do not reset animation */
+  max-width: 400px;
+  height: auto;
+  border-radius: 200px;
+  margin-top: -13em;
+}
+/* Keyframes that animate my profile picture */
+@keyframes fadeIn {
+  0% { opacity: 0; } 
+  100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
+  from {
+      transform: translateX(0%);
+    }
+  
+  to {
+      transform: translateX(25%); /* from first X position, increase by 25% */
+    } 
+}
+
+.three-traits {
+  text-align: center;
+  margin-top: 1.2em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plant-crop-1 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(-130%);
+  margin-left: 68.5em;
+}
+/* Below is the formatting for the second section of the website*/
 
 .bio-text {
   padding-top: 3.5em;
@@ -161,6 +152,15 @@ body {
 .bio-intro {
   font-weight: bold; 
   font-size: x-large;
+}
+
+.plant-crop-2 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 70em;
 }
 
 .container {
@@ -178,14 +178,16 @@ body {
   margin-bottom: 30px;
 }
 
+
+/* Below is the formatting for the third section of the website*/
 #section-three {
   margin-top: 2em;
-  margin-bottom: 60px; 
-  margin-left: 100px; 
-  padding-bottom: 40px;
+  margin-bottom: 3em; 
+  margin-left: 6em; 
+  padding-bottom: 2.5em;
 }
 
-.xx-font-size {
+.experience-header {
   font-size: xx-large;
 }
 
@@ -193,4 +195,14 @@ body {
   font-size: x-large;
   margin-left: 350px;
   padding-top: .2em;
+}
+
+.plant-crop-3 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 63em;
+  margin-top: -2em;
 }

@@ -143,6 +143,10 @@
   border-radius: 50%;
 }
 
+.s3-button {
+  margin-top: -8.5em;
+}
+
 .bio-text {
   padding-top: 3.5em;
   padding-left: 6em;

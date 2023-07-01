@@ -136,8 +136,44 @@ body {
   transform: translateY(-130%);
   margin-left: 68.5em;
 }
+/* Below is the formatting for the second section of the website*/
 
- /* Below is the formatting for the third section of the website*/
+.bio-text {
+  padding-top: 3.5em;
+  padding-left: 6em;
+}
+
+.bio-intro {
+  font-weight: bold; 
+  font-size: x-large;
+}
+
+.plant-crop-2 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 70em;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 0 0 40%;
+  text-align: left;
+  margin-right: 5.5em;
+}
+
+.projects-tools {
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
+
+/* Below is the formatting for the third section of the website*/
 .subheading {
   font-weight: bold;
   font-size: large;
@@ -155,14 +191,7 @@ body {
 
 
 
-.plant-crop-2 {
-  max-width: 400px;
-  height: auto;
-  border-radius: 25px;
-  position: absolute;
-  transform: translateY(15%);
-  margin-left: 70em;
-}
+
 
 .plant-crop-3 {
   max-width: 400px;
@@ -182,30 +211,7 @@ body {
 
 
 
-.bio-text {
-  padding-top: 3.5em;
-  padding-left: 6em;
-}
 
-.bio-intro {
-  font-weight: bold; 
-  font-size: x-large;
-}
-
-.container {
-  display: flex;
-}
-
-.column {
-  flex: 0 0 40%;
-  text-align: left;
-  margin-right: 5.5em;
-}
-
-.projects-tools {
-  font-size: xx-large;
-  margin-bottom: 30px;
-}
 
 #section-three {
   margin-top: 2em;

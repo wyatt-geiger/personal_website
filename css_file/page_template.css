@@ -182,3 +182,9 @@
 .xx-font-size {
   font-size: xx-large;
 }
+
+.full-resume {
+  font-size: x-large;
+  margin-left: 350px;
+  padding-top: .2em;
+}

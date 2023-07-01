@@ -105,6 +105,16 @@
   margin-left: 70em;
 }
 
+.plant-crop-3 {
+  max-width: 400px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 64em;
+  margin-top: -2em;
+}
+
 .arrow-text {
   font-weight: bold;
   margin-top: 7em;
@@ -151,4 +161,8 @@
   flex: 0 0 40%;
   text-align: left;
   margin-right: 5.5em;
+}
+
+#section-three {
+  margin-top: 2em;
 }

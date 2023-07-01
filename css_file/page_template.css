@@ -85,6 +85,12 @@ body {
   margin-top: -10.5em;
 }
 
+/* CSS for subheadings that are used in section 2 and 3 */
+.subheading {
+  font-weight: bold;
+  font-size: large;
+}
+
 /* Below is the formatting for the first section of the website */
 
 .my-name{
@@ -174,24 +180,22 @@ body {
 
 
 /* Below is the formatting for the third section of the website*/
-.subheading {
-  font-weight: bold;
-  font-size: large;
+#section-three {
+  margin-top: 2em;
+  margin-bottom: 3em; 
+  margin-left: 6em; 
+  padding-bottom: 2.5em;
 }
 
+.experience-header {
+  font-size: xx-large;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.full-resume {
+  font-size: x-large;
+  margin-left: 350px;
+  padding-top: .2em;
+}
 
 .plant-crop-3 {
   max-width: 400px;
@@ -201,31 +205,4 @@ body {
   transform: translateY(15%);
   margin-left: 63em;
   margin-top: -2em;
-}
-
-
-
-
-
-
-
-
-
-
-
-#section-three {
-  margin-top: 2em;
-  margin-bottom: 60px; 
-  margin-left: 100px; 
-  padding-bottom: 40px;
-}
-
-.xx-font-size {
-  font-size: xx-large;
-}
-
-.full-resume {
-  font-size: x-large;
-  margin-left: 350px;
-  padding-top: .2em;
 }

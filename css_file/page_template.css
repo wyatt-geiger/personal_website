@@ -80,9 +80,33 @@ body {
   margin-top: 7em;
 }
 
+@media screen and (max-width: 1500px) {
+  .section-description {
+    margin-top: 12em;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .section-description {
+    margin-top: 10em;
+  }
+}
+
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
   margin-top: -10.5em;
+}
+
+@media screen and (max-width: 1500px) {
+  .s3-button {
+    margin-top: -12em;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .s3-button {
+    margin-top: -13.5em;
+  }
 }
 
 /* CSS for subheadings that are used in section 2 and 3 */
@@ -127,6 +151,12 @@ body {
     } 
 }
 
+@media screen and (max-width: 1400px) {
+  .profile_pic {
+    margin-left: -5em;
+  }
+}
+
 .three-traits {
   text-align: center;
   margin-top: 1.2em;
@@ -135,12 +165,12 @@ body {
 }
 
 .plant-crop-1 {
-  max-width: 400px;
+  max-width: 27%;
   height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(-130%);
-  margin-left: 68.5em;
+  margin: 0 71.5%;
 }
 /* Below is the formatting for the second section of the website*/
 
@@ -160,7 +190,7 @@ body {
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 70em;
+  margin: 0 71.5%;
 }
 
 .container {
@@ -181,10 +211,10 @@ body {
 
 /* Below is the formatting for the third section of the website*/
 #section-three {
-  margin-top: 2em;
+  margin-top: 6em;
   margin-bottom: 3em; 
   margin-left: 6em; 
-  padding-bottom: 2.5em;
+  padding-bottom: 4em;
 }
 
 .experience-header {
@@ -203,6 +233,6 @@ body {
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 63em;
+  margin: 0 65%;
   margin-top: -2em;
 }

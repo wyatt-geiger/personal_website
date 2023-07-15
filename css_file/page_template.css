@@ -59,7 +59,7 @@ body {
 .next-section-scroll {
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
-  margin-top: .8em;
+  margin-top: 1em;
   font-size: 25px;
   font-weight: bold;
   height: 1.8em;
@@ -94,6 +94,7 @@ body {
 /* Below is the formatting for the first section of the website */
 
 .my-name{
+  margin-top: 0.5em;
   font-size: 150px;
   text-align: center;
   line-height: 1em;
@@ -109,9 +110,9 @@ body {
   position: absolute;
   animation: fadeIn 1.5s;
   animation-fill-mode: both; /* Do not reset animation */
-  max-width: 400px;
+  max-width: 450px;
   height: auto;
-  border-radius: 200px;
+  border-radius: 250px;
   margin-top: -13em;
 }
 /* Keyframes that animate my profile picture */
@@ -123,7 +124,7 @@ body {
     }
   
   to {
-      transform: translateX(25%); /* from first X position, increase by 25% */
+      transform: translateX(50%); /* from first X position, increase by 25% */
     } 
 }
 
@@ -135,12 +136,12 @@ body {
 }
 
 .plant-crop-1 {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(-130%);
-  margin-left: 68.5em;
+  transform: translateY(-100%);
+  margin-left: 85em;
 }
 /* Below is the formatting for the second section of the website*/
 

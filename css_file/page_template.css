@@ -314,4 +314,43 @@ body {
   left: -78em;
   top: 40em;
 }
+
+/* Below is the formatting for the second section of the website*/
+
+.bio-intro {
+  font-weight: bold; 
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.bio-text {
+  padding-top: 3.5em;
+  padding-left: 6em;
+  font-size: 12px;
+  margin-left: -4em;
+}
+
+.plant-crop-2 {
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 78em;
+}
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 0 0 45%;
+  text-align: left;
+  margin-right: 5.5em;
+  margin-top: 2em;
+}
+
+.projects-tools {
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
 }

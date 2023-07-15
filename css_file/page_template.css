@@ -207,3 +207,83 @@ body {
   margin-left: 77em;
   margin-top: -5em;
 }
+
+/*
+
+    MOBILE MEDIA QUERY
+
+*/
+
+@media only screen and (max-width: 844px) {
+  /* phones */
+
+  /* Styling for headers that is used multiple times in the website */
+  
+.header-shadow {
+  display: inline-block;
+  text-align: center;
+  font-weight: 100;
+  background-color: black;
+  box-shadow: 10px 10px #c084fc;
+  color: rgb(248 250 252);
+  font-size: 30px;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .2em;
+  margin-top: 11em;
+}
+
+
+  /* Below is the formatting for the first section of the website */
+
+.my-name{
+  margin-top: 0.5em;
+  font-size: 75px;
+  text-align: center;
+  line-height: 1em;
+  margin-right: 1.1em;
+}
+
+#last-name {
+  margin-left: 2em;
+}
+
+.profile_pic {
+  overflow: hidden;
+  position: absolute;
+  animation: fadeIn 1.5s;
+  animation-fill-mode: both; /* Do not reset animation */
+  max-width: 300px;
+  height: auto;
+  border-radius: 350px;
+  margin-top: 1em;
+}
+/* Keyframes that animate my profile picture */
+@keyframes fadeIn {
+  0% { opacity: 0; } 
+  100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
+  from {
+      transform: translateX(0%);
+    }
+  
+  to {
+      transform: translateX(20%); /* from first X position, increase by 25% */
+    } 
+}
+
+.three-traits {
+  text-align: center;
+  margin-top: 1.2em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.plant-crop-1 {
+  max-width: 550px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(-100%);
+  margin-left: 80em;
+}
+}

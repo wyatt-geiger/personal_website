@@ -199,11 +199,11 @@ body {
 }
 
 .plant-crop-3 {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 63em;
-  margin-top: -2em;
+  margin-left: 77em;
+  margin-top: -7em;
 }

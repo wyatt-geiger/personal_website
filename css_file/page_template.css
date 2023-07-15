@@ -156,12 +156,10 @@ body {
 }
 
 .plant-crop-2 {
-  max-width: 400px;
-  height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 70em;
+  margin-left: 78em;
 }
 
 .container {

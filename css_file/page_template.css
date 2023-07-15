@@ -136,12 +136,12 @@ body {
 }
 
 .plant-crop-1 {
-  max-width: 500px;
+  max-width: 550px;
   height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(-100%);
-  margin-left: 85em;
+  margin-left: 80em;
 }
 /* Below is the formatting for the second section of the website*/
 

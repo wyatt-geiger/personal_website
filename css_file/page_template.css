@@ -153,6 +153,7 @@ body {
 .bio-intro {
   font-weight: bold; 
   font-size: x-large;
+  margin-bottom: 1em;
 }
 
 .plant-crop-2 {
@@ -170,7 +171,7 @@ body {
   flex: 0 0 45%;
   text-align: left;
   margin-right: 5.5em;
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 .projects-tools {

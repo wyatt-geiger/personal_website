@@ -218,7 +218,36 @@ body {
   /* phones */
 
   /* Styling for headers that is used multiple times in the website */
-  
+
+  /* CSS for the menu of links that scrolls along website */
+.link-menu {
+  z-index: 9;
+  padding-left: .5em;
+  padding-top: .2em;
+  padding-bottom: .3em;
+  font-size: 25px;
+  color: white;
+  height: auto;
+  width: 5em;
+  position: fixed;
+  background-color: black;
+  box-shadow: .4em .4em #c084fc;
+  margin-top: -78em;
+  margin-left: -40em;
+}
+
+.email-link {
+  display: flex;
+}
+
+/* This formats the vector link arrow that is found on the menu of links, Projects, and full resume */
+.link-arrow {
+  height: 1rem;
+  width: 1rem;
+  margin-left: .1em;
+  margin-top: .2em;
+}
+
 .header-shadow {
   display: inline-block;
   text-align: center;
@@ -230,14 +259,14 @@ body {
   padding-left: .5em;
   padding-right: .5em;
   padding-bottom: .2em;
-  margin-top: 11em;
+  margin-top: 7.7em;
 }
 
 
-  /* Below is the formatting for the first section of the website */
+/* Below is the formatting for the first section of the website */
 
 .my-name{
-  margin-top: 0.5em;
+  margin-top: 0.3em;
   font-size: 75px;
   text-align: center;
   line-height: 1em;
@@ -249,14 +278,14 @@ body {
 }
 
 .profile_pic {
-  overflow: hidden;
   position: absolute;
   animation: fadeIn 1.5s;
   animation-fill-mode: both; /* Do not reset animation */
-  max-width: 300px;
+  max-width: 200px;
   height: auto;
   border-radius: 350px;
   margin-top: 1em;
+  margin-left: 4em;
 }
 /* Keyframes that animate my profile picture */
 @keyframes fadeIn {
@@ -274,16 +303,15 @@ body {
 .three-traits {
   text-align: center;
   margin-top: 1.2em;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 
 .plant-crop-1 {
-  max-width: 550px;
+  max-width: 150px;
   height: auto;
   border-radius: 25px;
-  position: absolute;
-  transform: translateY(-100%);
-  margin-left: 80em;
+  left: -78em;
+  top: 40em;
 }
 }

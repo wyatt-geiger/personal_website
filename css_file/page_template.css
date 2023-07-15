@@ -23,7 +23,7 @@ body {
   background-color: black;
   box-shadow: .4em .4em #c084fc;
   top: 75%;
-  left: 86%;
+  left: 83%;
   transform: translate(-50%, -50%);
   font-weight: 100;
 }
@@ -59,7 +59,7 @@ body {
 .next-section-scroll {
   animation: bounce 1.2s;
   animation-iteration-count: infinite;
-  margin-top: .8em;
+  margin-top: 1em;
   font-size: 25px;
   font-weight: bold;
   height: 1.8em;
@@ -77,12 +77,12 @@ body {
 
 .section-description {
   font-weight: bold;
-  margin-top: 7em;
+  margin-top: 14em;
 }
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -10.5em;
+  margin-top: -9em;
 }
 
 /* CSS for subheadings that are used in section 2 and 3 */
@@ -94,6 +94,7 @@ body {
 /* Below is the formatting for the first section of the website */
 
 .my-name{
+  margin-top: 0.5em;
   font-size: 150px;
   text-align: center;
   line-height: 1em;
@@ -109,10 +110,10 @@ body {
   position: absolute;
   animation: fadeIn 1.5s;
   animation-fill-mode: both; /* Do not reset animation */
-  max-width: 400px;
+  max-width: 550px;
   height: auto;
-  border-radius: 200px;
-  margin-top: -13em;
+  border-radius: 350px;
+  margin-top: -16em;
 }
 /* Keyframes that animate my profile picture */
 @keyframes fadeIn {
@@ -123,7 +124,7 @@ body {
     }
   
   to {
-      transform: translateX(25%); /* from first X position, increase by 25% */
+      transform: translateX(20%); /* from first X position, increase by 25% */
     } 
 }
 
@@ -135,12 +136,12 @@ body {
 }
 
 .plant-crop-1 {
-  max-width: 400px;
+  max-width: 550px;
   height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(-130%);
-  margin-left: 68.5em;
+  transform: translateY(-100%);
+  margin-left: 80em;
 }
 /* Below is the formatting for the second section of the website*/
 
@@ -152,15 +153,14 @@ body {
 .bio-intro {
   font-weight: bold; 
   font-size: x-large;
+  margin-bottom: 1em;
 }
 
 .plant-crop-2 {
-  max-width: 400px;
-  height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 70em;
+  margin-left: 78em;
 }
 
 .container {
@@ -168,9 +168,10 @@ body {
 }
 
 .column {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
   text-align: left;
   margin-right: 5.5em;
+  margin-top: 2em;
 }
 
 .projects-tools {
@@ -181,10 +182,10 @@ body {
 
 /* Below is the formatting for the third section of the website*/
 #section-three {
-  margin-top: 2em;
+  margin-top: 15em;
   margin-bottom: 3em; 
   margin-left: 6em; 
-  padding-bottom: 2.5em;
+  padding-bottom: 13em;
 }
 
 .experience-header {
@@ -198,11 +199,11 @@ body {
 }
 
 .plant-crop-3 {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
   border-radius: 25px;
   position: absolute;
   transform: translateY(15%);
-  margin-left: 63em;
-  margin-top: -2em;
+  margin-left: 77em;
+  margin-top: -5em;
 }

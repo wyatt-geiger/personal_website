@@ -82,7 +82,7 @@ body {
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -6em;
+  margin-top: -9em;
 }
 
 /* CSS for subheadings that are used in section 2 and 3 */
@@ -167,9 +167,10 @@ body {
 }
 
 .column {
-  flex: 0 0 40%;
+  flex: 0 0 45%;
   text-align: left;
   margin-right: 5.5em;
+  margin-top: 3em;
 }
 
 .projects-tools {

@@ -221,17 +221,7 @@ body {
 
   /* CSS for the menu of links that scrolls along website */
 .link-menu {
-  z-index: 9;
-  padding-left: .5em;
-  padding-top: .2em;
-  padding-bottom: .3em;
   font-size: 25px;
-  color: white;
-  height: auto;
-  width: 5em;
-  position: fixed;
-  background-color: black;
-  box-shadow: .4em .4em #c084fc;
   margin-top: -78em;
   margin-left: -40em;
 }

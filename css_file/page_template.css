@@ -262,6 +262,11 @@ body {
   margin-top: 7.7em;
 }
 
+/* Additional styling for the animated button that scrolls to section 3*/
+.s3-button {
+  margin-top: -9em;
+}
+
 
 /* Below is the formatting for the first section of the website */
 
@@ -320,7 +325,6 @@ body {
 .bio-intro {
   font-weight: bold; 
   font-size: 18px;
-  margin-bottom: 1em;
 }
 
 .bio-text {
@@ -331,26 +335,26 @@ body {
 }
 
 .plant-crop-2 {
+  width: 150px;
+  height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(15%);
-  margin-left: 78em;
+  margin-left: 14em;
+  margin-top: 31em;
 }
 
 .container {
   display: flex;
+  margin-top: -12em;
 }
 
 .column {
   flex: 0 0 45%;
   text-align: left;
-  margin-right: 5.5em;
-  margin-top: 2em;
 }
 
 .projects-tools {
-  font-size: xx-large;
-  margin-bottom: 30px;
+  font-size: 20px;
 }
 
 }

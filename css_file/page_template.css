@@ -82,7 +82,7 @@ body {
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -9em;
+  margin-top: -18em;
   top: -100px;
 }
 
@@ -149,6 +149,7 @@ body {
 .bio-text {
   padding-top: 3.5em;
   padding-left: 6em;
+  width: 900px;
 }
 
 .bio-intro {
@@ -183,7 +184,7 @@ body {
 
 /* Below is the formatting for the third section of the website*/
 #section-three {
-  margin-top: 6em;
+  margin-top: 6.3em;
   margin-bottom: 3em; 
   margin-left: 6em; 
   padding-bottom: 5em;
@@ -206,13 +207,12 @@ body {
 }
 
 .plant-crop-3 {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(15%);
-  margin-left: 77em;
-  margin-top: -8em;
+  margin-left: 80em;
+  margin-top: 2em;
 }
 
 /***********************************************
@@ -274,7 +274,7 @@ body {
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -17em;
+  margin-top: -15.5em;
 }
 
 
@@ -346,6 +346,7 @@ body {
   font-size: 11px;
   margin-left: -4em;
   margin-right: 6em;
+  width: 350px;
 }
 
 .tools-list {
@@ -389,7 +390,7 @@ body {
 #experience-header {
   font-size: 25px;
   margin-left: 0em;
-  transform: translateY(70%)
+  transform: translateY(70%);
 }
 
 .full-resume {
@@ -414,7 +415,7 @@ body {
   border-radius: 25px;
   position: absolute;
   margin-left: 7em;
-  margin-top: 56em;
+  margin-top: 57em;
 }
 
 }

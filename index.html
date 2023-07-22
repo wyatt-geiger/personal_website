@@ -139,7 +139,7 @@
     <!-- Button to scroll to next section of the website -->
     <div class="center s3-button">
         <div class="section-description">EXPERIENCE</div>
-        <input type="button" class="next-section-scroll" value="V" onClick="document.getElementById('section-three').scrollIntoView({ behavior: 'smooth' });"/>
+        <input type="button" class="next-section-scroll" value="V" onClick="document.getElementById('experience-header').scrollIntoView({ top: 10,behavior: 'smooth' });"/>
     </div>
     
     <!-- Below is the third section of the website, containing my work experience -->
@@ -147,7 +147,7 @@
 
                 <img src="assets/plant_3.png" alt="photo of a plant" class="plant-crop-3">
 
-                <div class="header-shadow experience-header">
+                <div class="header-shadow" id="experience-header">
                     Experience
                 </div>
 

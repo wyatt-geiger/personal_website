@@ -83,6 +83,7 @@ body {
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
   margin-top: -9em;
+  top: -100px;
 }
 
 /* CSS for subheadings that are used in section 2 and 3 */
@@ -182,13 +183,13 @@ body {
 
 /* Below is the formatting for the third section of the website*/
 #section-three {
-  margin-top: 15em;
+  margin-top: 6em;
   margin-bottom: 3em; 
   margin-left: 6em; 
-  padding-bottom: 13em;
+  padding-bottom: 5em;
 }
 
-.experience-header {
+#experience-header {
   font-size: xx-large;
 }
 
@@ -198,6 +199,12 @@ body {
   padding-top: .2em;
 }
 
+.resume-subheading {
+  font-weight: bold;
+  font-size: large;
+  margin-top: .5em;
+}
+
 .plant-crop-3 {
   max-width: 500px;
   height: auto;
@@ -205,7 +212,7 @@ body {
   position: absolute;
   transform: translateY(15%);
   margin-left: 77em;
-  margin-top: -5em;
+  margin-top: -8em;
 }
 
 /***********************************************
@@ -357,11 +364,12 @@ body {
 
 #section-three {
   margin-left: 1em;
+  margin-top: -6em;
+  max-height: 900px;
 }
 
-.experience-header {
+#experience-header {
   font-size: 20px;
-  margin-bottom: 3em;
 }
 
 .full-resume {
@@ -371,6 +379,7 @@ body {
 
 .resume-text {
   font-size: 11px;
+  margin-bottom: -1em;
 }
 
 .resume-subheading {
@@ -379,13 +388,12 @@ body {
 }
 
 .plant-crop-3 {
-  max-width: 500px;
+  max-width: 110px;
   height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(15%);
-  margin-left: 77em;
-  margin-top: -5em;
+  margin-left: 7em;
+  margin-top: 50em;
 }
 
 }

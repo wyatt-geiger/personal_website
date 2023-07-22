@@ -222,9 +222,10 @@ body {
 ************************************************/
 
 @media only screen and (max-width: 844px) {
-  /* phones */
 
-  /* Styling for headers that is used multiple times in the website */
+  html, body {
+    margin-right: 1.5em;
+}
 
   /* CSS for the menu of links that scrolls along website */
 .link-menu {
@@ -258,16 +259,22 @@ body {
   padding-right: .5em;
   padding-bottom: .2em;
   margin-top: 7.7em;
+  margin-left: 2em;
 }
 
 .section-description {
   font-weight: bold;
-  margin-top: 15em;
+  margin-top: 18em;
+  margin-left: 2em;
+}
+
+.next-section-scroll {
+  margin-left: 1.2em;
 }
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -14em;
+  margin-top: -17em;
 }
 
 
@@ -309,10 +316,12 @@ body {
 }
 
 .three-traits {
+  position: absolute;
   text-align: center;
   margin-top: 1.2em;
   font-size: 15px;
   font-weight: bold;
+  margin-left: 1.6em;
 }
 
 .plant-crop-1 {
@@ -328,6 +337,8 @@ body {
 .bio-intro {
   font-weight: bold; 
   font-size: 18px;
+  margin-top: -1em;
+  width: 300px;
 }
 
 .bio-text {
@@ -337,13 +348,17 @@ body {
   margin-right: 6em;
 }
 
+.tools-list {
+  margin-top: 1.7em;
+}
+
 .plant-crop-2 {
   width: 150px;
   height: auto;
   border-radius: 25px;
   position: absolute;
   margin-left: 14em;
-  margin-top: 29em;
+  margin-top: 35em;
 }
 
 .container {
@@ -358,7 +373,9 @@ body {
 
 .projects-tools {
   font-size: 20px;
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+  margin-left: -0.5em;
+  margin-top: 6.5em;
 }
 
 /* Below is the formatting for the third section of the website*/

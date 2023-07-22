@@ -208,11 +208,11 @@ body {
   margin-top: -5em;
 }
 
-/*
+/***********************************************
 
-    MOBILE MEDIA QUERY
+              MOBILE MEDIA QUERY
 
-*/
+************************************************/
 
 @media only screen and (max-width: 844px) {
   /* phones */
@@ -351,6 +351,41 @@ body {
 .projects-tools {
   font-size: 20px;
   margin-bottom: 1em;
+}
+
+/* Below is the formatting for the third section of the website*/
+
+#section-three {
+  margin-left: 1em;
+}
+
+.experience-header {
+  font-size: 20px;
+  margin-bottom: 3em;
+}
+
+.full-resume {
+  font-size: 20px;
+  margin-left: 4em;
+}
+
+.resume-text {
+  font-size: 11px;
+}
+
+.resume-subheading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.plant-crop-3 {
+  max-width: 500px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  transform: translateY(15%);
+  margin-left: 77em;
+  margin-top: -5em;
 }
 
 }

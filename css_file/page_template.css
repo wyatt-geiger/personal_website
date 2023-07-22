@@ -229,8 +229,9 @@ body {
   /* CSS for the menu of links that scrolls along website */
 .link-menu {
   font-size: 25px;
-  margin-top: -78em;
-  margin-left: -40em;
+  margin-top: -2em;
+  margin-left: -1.5em;
+  position: absolute;
 }
 
 .email-link {

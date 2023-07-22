@@ -82,7 +82,8 @@ body {
 
 /* Additional styling for the animated button that scrolls to section 3*/
 .s3-button {
-  margin-top: -9em;
+  margin-top: -18em;
+  top: -100px;
 }
 
 /* CSS for subheadings that are used in section 2 and 3 */
@@ -148,6 +149,7 @@ body {
 .bio-text {
   padding-top: 3.5em;
   padding-left: 6em;
+  width: 900px;
 }
 
 .bio-intro {
@@ -182,13 +184,13 @@ body {
 
 /* Below is the formatting for the third section of the website*/
 #section-three {
-  margin-top: 15em;
+  margin-top: 6.3em;
   margin-bottom: 3em; 
   margin-left: 6em; 
-  padding-bottom: 13em;
+  padding-bottom: 5em;
 }
 
-.experience-header {
+#experience-header {
   font-size: xx-large;
 }
 
@@ -198,12 +200,222 @@ body {
   padding-top: .2em;
 }
 
+.resume-subheading {
+  font-weight: bold;
+  font-size: large;
+  margin-top: .5em;
+}
+
 .plant-crop-3 {
-  max-width: 500px;
+  max-width: 400px;
   height: auto;
   border-radius: 25px;
   position: absolute;
-  transform: translateY(15%);
-  margin-left: 77em;
-  margin-top: -5em;
+  margin-left: 80em;
+  margin-top: 2em;
+}
+
+/***********************************************
+
+              MOBILE MEDIA QUERY
+
+************************************************/
+
+@media only screen and (max-width: 844px) {
+
+  html, body {
+    margin-right: 1.5em;
+}
+
+  /* CSS for the menu of links that scrolls along website */
+.link-menu {
+  font-size: 25px;
+  margin-top: -2em;
+  margin-left: -1.5em;
+  position: absolute;
+}
+
+.email-link {
+  display: flex;
+}
+
+/* This formats the vector link arrow that is found on the menu of links, Projects, and full resume */
+.link-arrow {
+  height: 1rem;
+  width: 1rem;
+  margin-left: .1em;
+  margin-top: .2em;
+}
+
+.header-shadow {
+  display: inline-block;
+  text-align: center;
+  font-weight: 100;
+  background-color: black;
+  box-shadow: 10px 10px #c084fc;
+  color: rgb(248 250 252);
+  font-size: 30px;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .2em;
+  margin-top: 7.7em;
+  margin-left: 2em;
+}
+
+.section-description {
+  font-weight: bold;
+  margin-top: 18em;
+  margin-left: 2em;
+}
+
+.next-section-scroll {
+  margin-left: 1.2em;
+}
+
+/* Additional styling for the animated button that scrolls to section 3*/
+.s3-button {
+  margin-top: -15.5em;
+}
+
+
+/* Below is the formatting for the first section of the website */
+
+.my-name {
+  margin-top: 0.3em;
+  font-size: 75px;
+  text-align: center;
+  line-height: 1em;
+  margin-right: 1.1em;
+}
+
+#last-name {
+  margin-left: 2em;
+}
+
+.profile_pic {
+  position: absolute;
+  animation: fadeIn 1.5s;
+  animation-fill-mode: both; /* Do not reset animation */
+  max-width: 200px;
+  height: auto;
+  border-radius: 350px;
+  margin-top: 1em;
+  margin-left: 4em;
+}
+/* Keyframes that animate my profile picture */
+@keyframes fadeIn {
+  0% { opacity: 0; } 
+  100% { opacity: 1; } /* start opacity at 0% and end at 100%*/
+  from {
+      transform: translateX(0%);
+    }
+  
+  to {
+      transform: translateX(20%); /* from first X position, increase by 25% */
+    } 
+}
+
+.three-traits {
+  position: absolute;
+  text-align: center;
+  margin-top: 1.2em;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 1.6em;
+}
+
+.plant-crop-1 {
+  max-width: 150px;
+  height: auto;
+  border-radius: 25px;
+  left: -78em;
+  top: 40em;
+}
+
+/* Below is the formatting for the second section of the website*/
+
+.bio-intro {
+  font-weight: bold; 
+  font-size: 18px;
+  margin-top: -1em;
+  width: 300px;
+}
+
+.bio-text {
+  padding-left: 6em;
+  font-size: 11px;
+  margin-left: -4em;
+  margin-right: 6em;
+  width: 350px;
+}
+
+.tools-list {
+  margin-top: 1.7em;
+}
+
+.plant-crop-2 {
+  width: 150px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  margin-left: 14em;
+  margin-top: 35em;
+}
+
+.container {
+  display: flex;
+  margin-top: -12em;
+}
+
+.column {
+  flex: 0 0 60%;
+  text-align: left;
+}
+
+.projects-tools {
+  font-size: 20px;
+  margin-bottom: 0.5em;
+  margin-left: -0.5em;
+  margin-top: 6.5em;
+}
+
+/* Below is the formatting for the third section of the website*/
+
+#section-three {
+  margin-left: 1em;
+  margin-top: -7em;
+  margin-bottom: 7em;
+}
+
+#experience-header {
+  font-size: 25px;
+  margin-left: 0em;
+  transform: translateY(70%);
+}
+
+.full-resume {
+  font-size: 20px;
+  margin-left: 9em;
+  margin-top: -20em;
+}
+
+.resume-text {
+  font-size: 11px;
+  margin-bottom: -3em;
+}
+
+.resume-subheading {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.plant-crop-3 {
+  max-width: 110px;
+  height: auto;
+  border-radius: 25px;
+  position: absolute;
+  margin-left: 7em;
+  margin-top: 57em;
+}
+
 }
